@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIColor+ColorWithHex.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIColor(ColorWithHex)</TokenIdentifier>
+			<Abstract type="html">This category facilitates the creation of UIColor
+objects with hexidecimal color values.</Abstract>
+			<DeclaredIn>UIColor+ColorWithHex.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v1.0&quot;
+)</Availability>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithHex:</TokenIdentifier>
+			<Abstract type="html">Returns a UIColor instance based on the hexidecimal
+color value hexValue.</Abstract>
+			<DeclaredIn>UIColor+ColorWithHex.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithHex:(int)hex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hex</Name>
+					<Abstract type="html">A six-digit hexidecimal integer.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A UIColor object.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHex:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIColor/colorWithHex:alpha:</TokenIdentifier>
+			<Abstract type="html">Returns a UIColor instance based on the hexidecimal
+color value hexValue with an opacity of alpha.</Abstract>
+			<DeclaredIn>UIColor+ColorWithHex.h</DeclaredIn>
+			
+			<Declaration>+ (UIColor *)colorWithHex:(int)hex alpha:(CGFloat)alpha</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hex</Name>
+					<Abstract type="html">A six-digit hexidecimal integer.</Abstract>
+				</Parameter><Parameter>
+					<Name>alpha</Name>
+					<Abstract type="html">An alpha value from 0 to 1.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A UIColor object.</Abstract></ReturnValue>
+			<Anchor>//api/name/colorWithHex:alpha:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

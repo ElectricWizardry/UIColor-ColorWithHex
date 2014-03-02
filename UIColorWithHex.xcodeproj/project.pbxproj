@@ -1,0 +1,131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		073DB64C18C2EB5200382BE9 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 073DB64D18C2EB5200382BE9 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				073DB65018C2EB8F00382BE9 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		073DB64A18C2EA4F00382BE9 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		073DB64B18C2EA4F00382BE9 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		073DB64318C2EA2100382BE9 = {
+			isa = PBXGroup;
+			children = (
+				073DB64A18C2EA4F00382BE9 /* UIColor+ColorWithHex.h */,
+				073DB64B18C2EA4F00382BE9 /* UIColor+ColorWithHex.m */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		073DB64418C2EA2100382BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Electric Wizardry, LLC";
+			};
+			buildConfigurationList = 073DB64718C2EA2100382BE9 /* Build configuration list for PBXProject "UIColorWithHex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 073DB64318C2EA2100382BE9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073DB64C18C2EB5200382BE9 /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073DB65018C2EB8F00382BE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"Electric Wizardry, LLC\";\ncompanyID=\"com.electric-wizardry\";\ncompanyURL=\"http://electric-wizardry.com\";\ntarget=\"iphoneos\";\noutputPath=\"${PROJECT_DIR}/Documentation\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"UIColorWithHex\" \\\n--project-version \"v1.0\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--output \"${outputPath}\" \\\n--docset-platform-family \"${target}\"  \\\n--docset-bundle-id \"uicolorwithhex\" \\\n--docset-bundle-name \"UIColorWithHex\" \\\n--docset-package-filename \"UIColorWithHex\" \\\n--install-docset \\\n--ignore .m \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		073DB64818C2EA2100382BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		073DB64918C2EA2100382BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		073DB64E18C2EB5200382BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		073DB64F18C2EB5200382BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073DB64718C2EA2100382BE9 /* Build configuration list for PBXProject "UIColorWithHex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073DB64818C2EA2100382BE9 /* Debug */,
+				073DB64918C2EA2100382BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073DB64D18C2EB5200382BE9 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073DB64E18C2EB5200382BE9 /* Debug */,
+				073DB64F18C2EB5200382BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073DB64418C2EA2100382BE9 /* Project object */;
+}
