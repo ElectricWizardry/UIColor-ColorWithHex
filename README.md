@@ -4,17 +4,15 @@ UIColorWithHex
 A simple UIColor category for instantiation UIColor objects with hexidecimal values.
 
 # Usage
-
-| lavenderColor | spookyGhostWhiteColor |
-|:------:|:------:|
-| <img src="https://github.com/ElectricWizardry/UIColor-ColorWithHex/raw/master/images/lavenderFloral.png"> | <img src="https://github.com/ElectricWizardry/UIColor-ColorWithHex/raw/master/images/spookyGhostWhite.png"> |
-
-
 ```obj-c
 UIColor *lavenderColor         = [UIColor colorWithHex:0xB57EDC];
 UIColor *spookyGhostWhiteColor = [UIColor colorWithHex:0xF8F8FF
                                                  alpha:0.9];
 ```
+
+| lavenderColor | spookyGhostWhiteColor |
+|:------:|:------:|
+| <img src="https://github.com/ElectricWizardry/UIColor-ColorWithHex/raw/master/images/lavenderFloral.png"> | <img src="https://github.com/ElectricWizardry/UIColor-ColorWithHex/raw/master/images/spookyGhostWhite.png"> |
 
 # Documentation
 [UIColor(ColorWithHex) Category Reference](http://electric-wizardry.com/Categories/UIColor+ColorWithHex.html)
