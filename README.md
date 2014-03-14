@@ -1,7 +1,7 @@
 UIColorWithHex
 ==============
 
-A simple UIColor category for instantiation UIColor objects with hexidecimal values.
+A simple category for instantiating [`UIColor`](http://is.gd/UIColor) objects with hexidecimal values.
 
 # Usage
 ```obj-c
